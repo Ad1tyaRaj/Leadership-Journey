@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Leadership Journey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="logo-A.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>CODE5</h1>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" id="closeMenu"></i>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a target="_blank" href="https://ad1tyaraj.github.io/Portfolio/">Portfolio</a></li>
+                    <li><a href="#Contact Me">Contact Me</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" id="openMenu"></i>
+        </nav>
+    </header>
+
+    <section class="hero work-data-hero">
+        <div class="hero-content">
+            <h1>Work Data Repository</h1>
+            <h2>Access & Download Project Resources</h2>
+            <p>All the data, reports, and resources from my Gandhi Fellowship journey in one place.</p>
+        </div>
+        <div class="hero-image">
+            <img src="Work Data Analytics.jpg" alt="Work Data Analytics">
+        </div>
+    </section>
+
+    <section class="data-categories">
+        <h2>Browse <span>Data</span> Categories</h2>
+        <p>Select the type of data you need for your research or reference</p>
+
+        <div class="category-filters">
+            <button class="filter-btn active">All Data</button>
+            <button class="filter-btn">Reports</button>
+            <button class="filter-btn">Presentations</button>
+            <button class="filter-btn">Research</button>
+            <button class="filter-btn">Media</button>
+        </div>
+    </section>
+
+    <section class="data-files">
+        <div class="files-container">
+            <!-- Add data-type attributes to your file cards -->
+            <div class="file-card" data-type="reports">
+                <div class="file-icon">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="file-details">
+                    <h3>Impact of Urbanization on
+                        Report</h3>
+                    <p>Agriculture and cultivation continue to be the backbone of rural life in Bokaro</p>
+                    <div class="file-meta">
+                        <span><i class="far fa-calendar"></i> Sept 2025</span>
+                        <span><i class="fas fa-file-alt"></i> PDF (554 KB)</span>
+                    </div>
+                </div>
+                <div class="file-actions">
+                    <a href="/Documents/Report-1.pdf" download class="download-btn">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="file-card" data-type="presentations">
+                <div class="file-icon">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="file-details">
+                    <h3>School Visit Observation & Activity Report</h3>
+                    <p>The five-day visit provided valuable insights into the school’s functioning.</p>
+                    <div class="file-meta">
+                        <span><i class="far fa-calendar"></i> Sept 2025</span>
+                        <span><i class="fas fa-file-alt"></i> PDF (3.3 MB)</span>
+                    </div>
+                </div>
+                <div class="file-actions">
+                    <a href="/Documents/Report-2.pdf" download class="download-btn">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+            </div>
+
+            <!-- Continue adding data-type attributes to all other file cards -->
+            <!-- <div class="file-card" data-type="research">
+                <div class="file-icon">
+                    <i class="fas fa-file-excel"></i>
+                </div>
+                <div class="file-details">
+                    <h3>Community Survey Data</h3>
+                    <p>Raw data and analysis from community needs assessment surveys</p>
+                    <div class="file-meta">
+                        <span><i class="far fa-calendar"></i> Apr 2023</span>
+                        <span><i class="fas fa-file-alt"></i> XLSX (1.8 MB)</span>
+                    </div>
+                </div>
+                <div class="file-actions">
+                    <a href="Documents/work1.pdf" download class="download-btn">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="file-card" data-type="research">
+                <div class="file-icon">
+                    <i class="fas fa-file-word"></i>
+                </div>
+                <div class="file-details">
+                    <h3>Project Implementation Guide</h3>
+                    <p>Step-by-step methodology for implementing community tech projects</p>
+                    <div class="file-meta">
+                        <span><i class="far fa-calendar"></i> May 2023</span>
+                        <span><i class="fas fa-file-alt"></i> DOCX (3.2 MB)</span>
+                    </div>
+                </div>
+                <div class="file-actions">
+                    <a href="Documents/work1.pdf" download class="download-btn">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="file-card" data-type="media">
+                <div class="file-icon">
+                    <i class="fas fa-file-image"></i>
+                </div>
+                <div class="file-details">
+                    <h3>Field Work Photo Documentation</h3>
+                    <p>High-resolution images from community engagement activities</p>
+                    <div class="file-meta">
+                        <span><i class="far fa-calendar"></i> Jun 2023</span>
+                        <span><i class="fas fa-file-alt"></i> ZIP (12.7 MB)</span>
+                    </div>
+                </div>
+                <div class="file-actions">
+                    <a href="Documents/work1.pdf" download class="download-btn">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+            </div>
+
+            <div class="file-card" data-type="media">
+                <div class="file-icon">
+                    <i class="fas fa-file-video"></i>
+                </div>
+                <div class="file-details">
+                    <h3>Educational Workshop Videos</h3>
+                    <p>Recorded sessions from technology literacy workshops</p>
+                    <div class="file-meta">
+                        <span><i class="far fa-calendar"></i> Jul 2023</span>
+                        <span><i class="fas fa-file-alt"></i> MP4 (85.3 MB)</span>
+                    </div>
+                </div>
+                <div class="file-actions">
+                    <a href="Documents/work1.pdf" download class="download-btn">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+            </div> -->
+        </div>
+
+
+    </section>
+
+    <section class="data-request">
+        <div class="request-container">
+            <div class="request-content">
+                <h2>Need Specific Data?</h2>
+                <p>Can't find what you're looking for? Submit a request for specific data or resources.</p>
+                <form class="request-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Describe the data you need..." required></textarea>
+                    <button type="submit" class="primary-btn">Submit Request</button>
+                </form>
+            </div>
+            <div class="request-image">
+                <img src="Data Request.gif" alt="Data Request">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="powered-by">
+                <p>Powered by</p>
+                <h3>Gandhi Fellowship</h3>
+            </div>
+            <div class="footer-links">
+                <h4>Get in touch</h4>
+                <p>code.adityaraj@email.com</p>
+            </div>
+
+            <div class="app-download">
+                <h4>Know more about our initiatives </h4>
+                <div class="app-buttons">
+                    <button>Android</button>
+                    <button>iOS</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">
+                <p>&copy; 2025 Gandhi Fellowship Journey. All rights reserved.</p>
+            </div>
+            <div class="social-icons">
+                <a href="https://twitter.com/Ad1tyaRaj_"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/aditya-raj-07950a234/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Ad1tyaRaj"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
